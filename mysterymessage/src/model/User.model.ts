@@ -1,5 +1,5 @@
 import mongoose, {Schema, Document} from "mongoose";
-// Documents for type cryptic
+// Documents for Type Safety:
 
 // This code defines a Mongoose schema and interface for a "Message" model,
 // which represents a message with content and a creation date.
