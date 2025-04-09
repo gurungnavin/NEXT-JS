@@ -2,6 +2,7 @@
   "name": "mysterymessage",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -9,11 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-email/components": "0.0.36",
     "mongoose": "^8.12.2",
-    "next": "15.2.3",
+    "next": "^15.2.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "resend": "^4.1.2",
+    "resend": "^4.2.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
